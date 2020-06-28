@@ -1,3 +1,6 @@
-function getRandomNumber (){
-    return Math.random();
+function getRandomLetter() {
+    var randomChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+    var result = randomChars.charAt(Math.floor(Math.random() * randomChars.length));
+    
+    return result;
 }
