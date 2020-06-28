@@ -1,0 +1,1 @@
+i had a task to create some functions and every time commit my staps then add gitignore file to ignore index.js 
