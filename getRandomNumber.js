@@ -1,10 +1,7 @@
-function getRandomLetter() {
-    var randomChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-    var result = randomChars.charAt(Math.floor(Math.random() * randomChars.length));
-    
-    return result;
+function getRandomNumber (){
+    return Math.random();
 }
 
-getRandomLetter();
-getRandomLetter();
-getRandomLetter();
+getRandomNumber();
+getRandomNumber();
+getRandomNumber();
