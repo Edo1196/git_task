@@ -4,3 +4,7 @@ function getRandomLetter() {
     
     return result;
 }
+
+getRandomLetter();
+getRandomLetter();
+getRandomLetter();
